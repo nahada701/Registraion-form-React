@@ -39,8 +39,8 @@ const goback=()=>{
             </table>
           </div>
           <div className='d-flex justify-content-center flex-wrap'>
-          <button className=' btn btn-warning me-5' onClick={goback} >Go back to Edit</button>
-          <button className=' btn btn-success me-5' >Confirm Details</button>
+          <button className=' btn btn-warning me-5 ms-5 mt-4' onClick={goback} >Go back to Edit</button>
+          <button className=' btn btn-success me-5  ms-5 mt-4' >Confirm Details</button>
 
          
           </div>
