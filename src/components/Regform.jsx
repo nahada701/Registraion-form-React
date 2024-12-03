@@ -175,7 +175,7 @@ function Regform() {
             </select>
 
             <div className='w-100 mt-1 flex-wrap d-flex align-items-center'>
-              <label htmlFor="skills" className='mt-1 ms-5'>Skills:</label>
+              <label htmlFor="skills" className='my-2 '>Skills:</label>
               <label className=''>
                 HTML
                 <input type="checkbox" name="html" onChange={handleChange} />
