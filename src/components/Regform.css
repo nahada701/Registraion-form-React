@@ -1,0 +1,48 @@
+.box{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    width: 50%;
+    padding: 5%;
+  
+    background-color: rgb(235, 243, 255);
+}
+@media (max-width:968px) {
+    .box{
+        width: 70%;
+    }
+    
+}
+@media (max-width:368px) {
+    .box{
+        width: 100%;
+    }
+}
+
+label{
+    margin-left: 10%;
+    color: rgb(0, 0, 0);
+
+}
+.inp{
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 5px;
+    border: 1px solid rgb(212, 212, 212);
+}
+select{
+    border-radius: 10px;
+    border: 1px solid rgb(212, 212, 212);
+
+}
+.error{
+    margin-left: 10%;
+    color: red;
+}
+.submit-btn{
+    margin-top: 2rem;
+    margin-left: 40%;
+    padding: 1% 5%;
+    border-radius: 10px;
+    color: #ffffff;
+    border: none;
+    background-color: #0075ff;
+}
